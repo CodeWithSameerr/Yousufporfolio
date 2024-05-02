@@ -1156,7 +1156,10 @@ ol {
 .services__item p {
   margin-bottom: 0;
 }
-
+.service-icon img{
+  object-fit: contain;
+  width: 80%;
+}
 .services__item__icon {
   position: relative;
   height: 70px;
