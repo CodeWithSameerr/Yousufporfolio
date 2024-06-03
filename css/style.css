@@ -27,6 +27,8 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 html,
 body {
   height: 100%;
@@ -103,6 +105,11 @@ ol {
   margin: 0;
 }
 
+.hero__text span{
+  font-family: "poppins", sans-serif;
+  font-size: 17px!important;
+  font-weight: 600;
+}
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -298,9 +305,12 @@ ol {
   left: 0;
   top: 0;
   width: 100%;
-  background: transparent;
+  /* background: transparent;*/
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 9;
+  background-color: rgba(16, 0, 40, 0.7);
+
+
 }
 
 .header__logo {
@@ -1253,6 +1263,7 @@ ol {
   color: #ffffff;
   font-size: 20px;
   height: 50px;
+background-color: #25ECFF!important;
   width: 50px;
   line-height: 50px;
   text-align: center;
